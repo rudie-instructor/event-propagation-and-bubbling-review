@@ -1,0 +1,55 @@
+body {
+    background-color: darkslategrey;
+    color: rgb(255, 112, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    background-color:darkslateblue;
+    margin: 2% 0% 2% 2.5%;
+} 
+
+main {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    align-content: space-around;
+}
+
+#first-container {
+    background-color:bisque;
+}
+
+.card {
+    background-color:cadetblue;
+    margin: .75%;
+    padding: 5%;
+    flex: 1 1;
+}
+
+#last-one {
+    flex: 3 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#last-too {
+    flex: 0 1;
+}
