@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Event Propagation/Bubbling</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Open the console and start clicking!</h1>
+    </header>
+    <main>
+        <section class="container" id="first-container">
+            <section class="card">
+                <h2>1</h2>
+            </section>
+            <section class="card">
+                <h2>2</h2>
+            </section>
+            <section class="card">
+                <h2>3</h2>
+            </section>
+            <section class="card">
+                <h2>4</h2>
+            </section>
+        </section>
+        <section class="container">
+            <section class="card">
+                <h2>5</h2>
+            </section>
+            <section class="card">
+                <h2>6</h2>
+            </section>
+            <section class="card">
+                <h2>7</h2>
+            </section>
+            <section class="card" id="last-one">
+                <h2>8</h2>
+            </section>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
